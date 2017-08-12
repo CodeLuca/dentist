@@ -2,13 +2,10 @@ import React, { Component } from "react";
 import { inject, observer } from "mobx-react";
 import { Link, withRouter } from "react-router-dom";
 
-import TopNav from "./TopNav";
-import Button from "./ui/Button";
-
 @withRouter
 @inject("store")
 @observer
-export default class TopBar extends Component {
+export default class Footer extends Component {
 	constructor(props) {
 		super(props);
 		this.store = this.props.store.appState;
@@ -16,8 +13,11 @@ export default class TopBar extends Component {
 
 	render() {
 		return (
-			<div className="topbar">
-				<TopNav location={this.props.location} />
+			<div className="footer">
+        <h4>Tannlege Homan Zandi AS</h4>
+        <p><b>Adress:</b> Parkveien 60, 0254 Oslo</p>
+        <p><b>Phone:</b> (+47) 22 44 18 11</p>
+        <p><b>Faks:</b> (+47) 22 44 18 12</p>
 			</div>
 		);
 	}

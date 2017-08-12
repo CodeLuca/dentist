@@ -10,9 +10,13 @@
 @import 'components/topbar';
 @import 'components/topnav';
 @import 'components/page';
+@import 'components/footer';
 
 // Pages
 
 @import 'pages/home';
-@import 'pages/posts';
-@import 'pages/post';
+@import 'pages/info';
+@import 'pages/team';
+@import 'pages/prices';
+@import 'pages/gallery';
+@import 'pages/contact';

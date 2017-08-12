@@ -1,10 +1,17 @@
 import React, { Component } from "react";
-import { Route, Link } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import { inject, observer } from "mobx-react";
 import LazyRoute from "lazy-route";
 import DevTools from "mobx-react-devtools";
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
+
+import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 import TopBar from "./TopBar";
+import Footer from "./Footer";
 
 @inject("store")
 @observer
@@ -29,51 +36,84 @@ export default class App extends Component {
 			testval
 		} = this.store.appState;
 		return (
-			<div className="wrapper">
-				{/*<DevTools />*/}
-				<TopBar />
+			<MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
+				<div className="wrapper">
+					{/*<DevTools />*/}
+					<TopBar />
+					<Switch>
+						<Route
+							exact
+							path="/"
+							render={props => (
+								<LazyRoute {...props} component={import("./Home")} />
+							)}
+						/>
 
-				<Route
-					exact
-					path="/"
-					render={props => (
-						<LazyRoute {...props} component={import("./Home")} />
-					)}
-				/>
-				<Route
-					exact
-					path="/posts"
-					render={props => (
-						<LazyRoute {...props} component={import("./SubPage")} />
-					)}
-				/>
-				<Route
-					exact
-					path="/posts/:id"
-					render={props => (
-						<LazyRoute {...props} component={import("./SubItem")} />
-					)}
-				/>
-				<Route
-					exact
-					path="/login"
-					render={props => (
-						<LazyRoute {...props} component={import("./Login")} />
-					)}
-				/>
-				<footer>
-					{testval}
-					<a href="https://twitter.com/mhaagens" target="_blank">
-						@mhaagens
-					</a>
-					{" "}
-					| github:
-					{" "}
-					<a href="https://github.com/mhaagens" target="_blank">
-						mhaagens
-					</a>
-				</footer>
-			</div>
+						<Route
+							exact
+							path="/info1"
+							render={props => (
+								<LazyRoute {...props} component={import("./info1")} />
+							)}
+						/>
+
+						<Route
+							exact
+							path="/info2"
+							render={props => (
+								<LazyRoute {...props} component={import("./info2")} />
+							)}
+						/>
+
+						<Route
+							exact
+							path="/info3"
+							render={props => (
+								<LazyRoute {...props} component={import("./info3")} />
+							)}
+						/>
+
+						<Route
+							exact
+							path="/team"
+							render={props => (
+								<LazyRoute {...props} component={import("./Team")} />
+							)}
+						/>
+
+						<Route
+							exact
+							path="/prices"
+							render={props => (
+								<LazyRoute {...props} component={import("./PriceList")} />
+							)}
+						/>
+
+						<Route
+							exact
+							path="/gallery"
+							render={props => (
+								<LazyRoute {...props} component={import("./Gallery")} />
+							)}
+						/>
+
+						<Route
+							exact
+							path="/contact"
+							render={props => (
+								<LazyRoute {...props} component={import("./Contact")} />
+							)}
+						/>
+
+						<Route
+							render={props => (
+								<LazyRoute {...props} component={import("./NotFound")} />
+							)}
+						/>
+					</Switch>
+					<Footer />
+				</div>
+		  </MuiThemeProvider>
 		);
 	}
 }

@@ -1,0 +1,77 @@
+.page.team {
+  .header {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(http://i.imgur.com/9VtUF74.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center 60%;    
+
+    h1 {
+      width: 80%;
+      margin: 0;
+      text-align: center;
+      color: #ddd;
+      font-size: 4em;
+      font-weight: 400;
+      text-shadow: 0 0 20px #333;
+    }
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+
+    .person {
+      flex-grow: 1;
+      padding: 40px;
+      
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        width: 95%;
+        margin: auto;
+
+        .pic {
+          min-width: 200px;
+          min-height: 200px;
+          margin: 10px;
+          margin-right: 50px;
+          background: url('http://i.imgur.com/DhvvR43.jpg');
+          box-shadow: 0 0 25px #222;
+          border: 4px solid #ddd;
+          background-size:     cover;
+          background-repeat:   no-repeat;
+          background-position: center 20%;
+          border-radius: 50%;
+        }
+
+        .desc {
+          flex-grow: 1;
+          width: 60%;
+          p {
+            font-weight: 300;
+            font-size: 1.5em;
+            margin: 0;
+          }
+          h3 {
+            font-size: 2.35em;
+            font-weight: 400;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .person:nth-child(odd) {
+    background: #292929;
+    color: #BEBEBE;
+  }
+}

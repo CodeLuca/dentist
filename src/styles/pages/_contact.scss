@@ -1,0 +1,59 @@
+.page.contact {
+  .header {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(http://i.imgur.com/9VtUF74.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center 60%;    
+
+    h1 {
+      text-align: center;
+      width: 80%;
+      color: #ddd;
+      font-size: 4em;
+      margin: 0;
+      font-weight: 400;
+      text-shadow: 0 0 20px #333;
+    }
+  }
+
+  .content {
+    iframe {
+      width: 100%;
+      border: 0;
+      height: 400px;
+    }
+
+    .contactForm {
+      margin: 50px;
+      margin-bottom: 100px;
+      input, textarea {
+        resize: none;
+      }
+ 
+      .textFields {
+        text-align: center;
+      }
+
+      .buttons {
+        width: 70%;
+        margin: auto;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .directions {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+}

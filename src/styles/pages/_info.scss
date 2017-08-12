@@ -1,0 +1,44 @@
+.page.info {
+  .header {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(http://i.imgur.com/9VtUF74.png);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center 60%;    
+
+    h1 {
+      text-align: center;
+      width: 80%;
+      color: #ddd;
+      font-size: 4em;
+      margin: 0;
+      font-weight: 400;
+      text-shadow: 0 0 20px #333;
+    }
+  }
+
+  .data {
+    padding: 40px;
+
+    h3 {
+      font-weight: 400;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+      margin-top: 5px;
+      font-size: 1.5em;
+      font-weight: 300;
+    }
+  }
+
+  .data:nth-child(odd) {
+    background: #292929;
+    color: #BEBEBE;
+  }
+}
