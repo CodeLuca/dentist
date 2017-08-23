@@ -37,7 +37,7 @@ export default class TopNav extends Component {
 			<div>
 				<AppBar
 					title="Tannlege Homan Zandi AS"
-					iconElementRight={<h4>Phone: (+47) 22 44 18 11</h4>}
+					iconElementRight={<h4>Tel: (+47) 22 44 18 11</h4>}
 					onLeftIconButtonTouchTap={
 						this.toggleDrawerOpen.bind(this)
 					}
