@@ -6,7 +6,7 @@ import DevTools from "mobx-react-devtools";
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
-import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
+import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
@@ -36,7 +36,7 @@ export default class App extends Component {
 			testval
 		} = this.store.appState;
 		return (
-			<MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
+			<MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
 				<div className="wrapper">
 					{/*<DevTools />*/}
 					<TopBar />

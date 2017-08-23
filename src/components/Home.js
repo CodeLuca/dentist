@@ -25,7 +25,7 @@ export default class Home extends Component {
 								className="material-icons"
 								style={{
 									fontSize: '7em',
-									color: '#bebebe',
+									color: '#444',
 									marginRight: '30px'
 								}}
 								>
@@ -43,7 +43,7 @@ export default class Home extends Component {
 							className="material-icons"
 							style={{
 								fontSize: '7em',
-								color: '#bebebe',
+								color: '#444',
 								marginRight: '30px'
 							}}
 							>
@@ -61,7 +61,7 @@ export default class Home extends Component {
 							className="material-icons"
 							style={{
 								fontSize: '7em',
-								color: '#bebebe',
+								color: '#444',
 								marginRight: '30px'
 							}}
 							>
