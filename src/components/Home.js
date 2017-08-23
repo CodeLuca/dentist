@@ -16,9 +16,46 @@ export default class Home extends Component {
 		return (
 			<div className="page home">
 				<div className='banner'>
-					<img src='https://i.imgur.com/IjCNUOg.jpg' alt=""/>
+					 <img src='http://i.imgur.com/50QtL2D.png' alt=""/> 
 				</div>	
 				<div className='homeContent'>
+					<div className='images'>
+						<a href='/info1'>
+							<div className='image' style={{'background-image': "url('http://i.imgur.com/s4r7xEDm.jpg')"}}>
+								Om Moderne Endodonti
+							</div>
+						</a>
+						<a href='/info2'>
+							<div className='image' style={{'background-image': "url('http://i.imgur.com/4xjkiQUm.jpg')"}}>
+								Spørsmål Om Rotfylling
+							</div>
+						</a>
+						<a href='/info3'>
+							<div className='image' style={{'background-image': "url('http://i.imgur.com/lvY6TuAm.jpg')"}}>
+								Praktisk Om Rotfylling
+							</div>
+						</a>
+						<a href='/team'>
+							<div className='image' style={{'background-image': "url('http://i.imgur.com/cs48bAQm.jpg')"}}>
+								Våre Medarbeidere
+							</div>
+						</a>
+						<a href='/prices'>
+							<div className='image' style={{'background-image': "url('http://i.imgur.com/dQLCc4am.jpg')"}}>
+								Prisliste
+							</div>
+						</a>
+						<a href='/gallery'>
+							<div className='image' style={{'background-image': "url('http://i.imgur.com/kOhV2Awm.jpg')"}}>
+								Bilder
+							</div>
+						</a>
+						<a href='/contact'>
+							<div className='image' style={{'background-image': "url('http://i.imgur.com/8pBYVmrm.jpg')"}}>
+								Contact Us
+							</div>
+						</a>
+					</div>
 					<div className='contentRow'>
 						<div className='icon'>
 								<FontIcon 
