@@ -102,14 +102,7 @@ export default class Info2 extends Component {
 						Dersom den vanlige rotbehandlingen ikke har gitt ønsket resultat eller at tilgjengeligheten i rotkanalen har vært vanskelig eller umulig pga gamle tannlegearbeider som stifter og krone/broer, må det vurderes en kirurgisk løsning. Man løfter av tannkjøttet på utsiden av roten for å kunne nå roten fra undersiden. Deretter fjernes infeksjonen og roten kuttes kortere før rotkanalen instrumenteres fra rotenden for til slutt å fylles med en tett masse.
 					</p>
 				</div>
-				<div className='data'>
-					<h3>
-						Hva er moderne endodonti (rotfylling) ?
-					</h3>
-					<p>
-						Faget endodonti har utviklet seg enormt de senere årene takket være mye vitenskapelig forskning, undersøkelser og utvikling av nye og effektive instrumenter og apparater. Mikroskop er et godt eksempel. Man kan se rotkanalene mye bedre i større forstørrelser. En rekke apparater kan rense rotkanalene mye enklere, raskere og mer effektivt og har i økende grad tatt over for manuell rotfylling. Moderne rotbehandling blir generelt mer nøyaktig, fullstendig og derved også oftere vellykket.
-					</p>
-				</div>
+				
 			</div>
 		);
 	}

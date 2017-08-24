@@ -58,14 +58,7 @@ export default class Info1 extends Component {
 						Mikroskop kan anvendes rutinemessig i endodontien, men er spesielt godt egnet til å finne kalsifiserte kanaler, oppdage perforasjoner og frakturlinjer, fjerne frakturerte instrumenter og stifter, revisjonsbehandling og ikke minst endodontisk mikrokirurgi. Forstørrelsen er gjerne fra 4x til 25x, og lyset gir et meget godt innsyn og dybdeskarphet uten noen form for skygge. Bruk av mikroskop øker kvaliteten og korter ned tidsforbruket ved endodontisk behandling.
 					</p>
 				</div>
-				<div className='data'>
-					<h3>
-						RaCe fra FKG-denture
-					</h3>
-					<p>
-						RaCe er et sveitsisk produkt som står for ”reaming alternating cutting edge”. Reamerne er laget av Nikkel-Titan og man oppnår en unik design, effektiv, skånsom og presis peparering. Med dette systemet reduserers frakturfaren betraktelig. Bruk av roterende maskiner som f.eks Septico kan gi en meget nøyaktig og reproduserbar instrumentering. Hastighet og torque programmeres på forhånd for å tilpasses ulike behandlinger – som f.eks revisjoner. Når intrumentet spiser seg inn i dentin , vil maskinen gi lydsignaler for å varsle at det er like før instrumentet setter seg fast. Samtidig aktiveres en autorevers med tilbakerotering av instrumentet, noe som betyr en ytterligere reduksjon av frakturfaren.
-					</p>
-				</div>
+			
 				<div className='data'>
 					<h3>
 						Apeks lokator

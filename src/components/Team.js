@@ -23,19 +23,17 @@ export default class Team extends Component {
         <div className="data">
           <div className='person'>
             <div className='content'>
-              <div className='pic'></div>
+              <div className='pic' style={{'background-image': 'url(http://i.imgur.com/TLzK3vV.jpg)'}}></div>
               <div className='desc'>
                 <h3>Tannlege Homan Zandi</h3>
                 <p>
                   Cand. Odont 1996.
                   <br />
-                  Spesialist i Endodonti (rotfylling og rotkirurgi).
+                  Spesialist i Endodonti 2003
                   <br />
                   Forskningsstipendiat fra norsk forskningsråd 1994-1996 i mikrobiologi
                   <br />
                   Privat praktiserende tannlege siden 1996. London 1997-1998. King’s College dental hospital i London. Oslo 1998-2008
-                  <br />
-                  Spesialist i endodonti 2003
                   <br />
                   Henvisningspraksis siden 2003
                   <br />
@@ -45,43 +43,14 @@ export default class Team extends Component {
                   <br />
                   Holder en rekke kurs for allmenntannleger i klinisk endodonti
                   <br />
-                  Forskningsstipendiat Universitetet i  Oslo
+                  PhD kandidat Universitetet i  Oslo
                 </p>
               </div>
             </div>
           </div>
           <div className='person'>
             <div className='content'>
-              <div className='pic' style={{'background-image': 'url(http://i.imgur.com/t7vOqOs.jpg)'}}></div>
-              <div className='desc'>
-                <h3>Tannlege Andre Roushan</h3>
-                <p>
-                  Cand. Odont 1999.
-                  <br />
-                  Forskningsstipendiat fra norsk forskningsråd 1997-1998 i oralpatologi
-                  <br />
-                  Militærtannlege ved Garnisonen i Sør-Varanger i 1999-2000
-                  <br />
-                  Tannlege ved den offentlige tannhelsetjenesten i Trondheim fra 2000-2002
-                  <br />
-                  Privatpraktiserende tannlege i egen praksis fra 2002-2005
-                  <br />
-                  Spesialistkandidat i endodonti ved Det Odontologiske Fakultet, UiO
-                  <br />
-                  Privatpraktiserende tannlege ved EndoPro tannklinikk
-                  <br />
-                  Spesialist i endodonti ved henvisningspraksis hos Homan Zandi fra 2008
-                  <br />
-                  Instruktørtannlege ved avdeling for endodonti ved UiO
-                  <br />
-                  Universitetslektor med ansvar for grunn- og spesialbehandling ved UiO
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className='person'>
-            <div className='content'>
-              <div className='pic' style={{'background-image': 'url(http://i.imgur.com/vQLOSw2.jpg)', 'background-position': 'center 30%'}}></div>
+              <div className='pic' style={{'background-image': 'url(http://i.imgur.com/JTzrBGe.jpg)', 'background-position': 'center 30%'}}></div>
               <div className='desc'>
                 <h3>Tannlege Trude Bøe</h3>
                 <p>
@@ -100,19 +69,92 @@ export default class Team extends Component {
           </div>
           <div className='person'>
             <div className='content'>
-              <div className='pic' style={{'background-image': 'url(http://i.imgur.com/YEEXoqU.jpg)', 'background-position': 'center 10%'}}></div>
+              <div className='pic' style={{'background-image': 'url(http://i.imgur.com/1ocAMHg.jpg)'}}></div>
               <div className='desc'>
-                <h3>Tannlegeassistent Daria Sinelchtchikova</h3>
+                <h3>Tannlege Anders Valnes</h3>
                 <p>
-                    Utdannet som tannlege ved det statlige medisinke institutt i Arkhangelsk, Russland i 1993
-                    <br />
-                    Jobbet ved Arkhangelsk kliniske sykehus, avd. for kjeve- og ansiktskirugi, 1998-2000
-                    <br />
-                    Jobbet hos Homan Zandi siden 2007
+                  Cand. Odont 1999.
+                  <br />
+                  Ferdigutdannet i 2010  (Uteksaminert fra Poznan University of Medical Sciences med graden Doctor of Dental Surgery (DDS) i 2010)
+                  <br />
+                  Privatpraktiserende tannlege 2010-2013
+                  <br />
+                  Instruktør ved Odontologisk fakultet avdeling for kjeve- og ansiktsradiologi siden 2012
+                  <br />
+                  Spesialist i kjeve- og ansiktsradiologi siden 2017
+                  
                 </p>
               </div>
             </div>
           </div>
+          <div className='person'>
+            <div className='content'>
+              <div className='pic' style={{'background-image': 'url(http://i.imgur.com/N4zbpxM.jpg)'}}></div>
+              <div className='desc'>
+                <h3>Tannpleier Sindy Tran</h3>
+                <p>
+                  <br />
+                  Ferdigutdannet juni 2015 tannlegehøyskole Oslo
+                  <br />
+                  Jobbet hos Erik Svendsrud 2015 til 2016
+                  <br />
+                  Jobbet hos Haslum tannlegekontor 2015 til og med nå
+                  <br />
+                  Jobbet som tannlege sekretær for Per Nygaard Østby  fra 2003 til 2010
+                  <br />
+                  Spesialistkandidat i endodonti ved Det Odontologiske Fakultet, UiO
+                  <br />
+                  Privatpraktiserende tannlege ved EndoPro tannklinikk
+                  <br />
+                  Spesialist i endodonti ved henvisningspraksis hos Homan Zandi fra 2008
+                  <br />
+                  Instruktørtannlege ved avdeling for endodonti ved UiO
+                  <br />
+                  Universitetslektor med ansvar for grunn- og spesialbehandling ved UiO
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className='person'>
+            <div className='content'>
+              <div className='pic' style={{'background-image': 'url(http://i.imgur.com/glLTaxE.jpg)'}}></div>
+              <div className='desc'>
+                <h3>Tannlegeassistent Rounak Karimi</h3>
+                <p>
+                 
+                  <br />
+                  Utdannet tannhelsesekretær i 2008
+                  <br />
+                  Jobbet både i offentlig og privat sektor
+                  <br />
+                  Allmenn påbyggning i 2009
+                  <br />
+                  Jobbet hos Homan Zandi siden 2009
+                
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className='person'>
+            <div className='content'>
+              <div className='pic' style={{'background-image': 'url(http://i.imgur.com/URi9WyD.jpg)', 'background-position': 'center 30%'}}></div>
+              <div className='desc'>
+                <h3>Tannlegeassistent Jenny Gonzalez Solhaug</h3>
+                <p>
+                 
+                  <br />
+                  Ferdig utdannet tannhelsesekretær
+                  <br />
+                  Kvadraturen skolesenter 
+                  <br />
+                  Jobbet hos Homan Zandi siden 2015
+                  <br />
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        
         </div>
 			</div>
 		);

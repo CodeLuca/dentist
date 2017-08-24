@@ -66,7 +66,7 @@ export default class TopNav extends Component {
 					</a>
 
 					<ListItem
-						primaryText="Endodonti"
+						primaryText="Rotfylling"
 						open={this.state.listItemOpen[0]}
 						onNestedListToggle={this.toggleListOpen.bind(this, 0)}
 						primaryTogglesNestedList={true}
@@ -100,6 +100,30 @@ export default class TopNav extends Component {
 							</a>,
 						]}
 					/>
+	<a href='/team'>
+						<ListItem
+							primaryText="Apikal kirurgi"
+						/>
+					</a>
+					
+						<a href='/team'>
+						<ListItem
+							primaryText="Implantater"
+						/>
+					</a>
+
+
+						<a href='/team'>
+						<ListItem
+							primaryText="OPG/CBCT"
+						/>
+					</a>
+		<a href='/team'>
+						<ListItem
+							primaryText="Diagnostikk og Smerteutrydning"
+						/>
+					</a>
+
 
 					<a href='/team'>
 						<ListItem

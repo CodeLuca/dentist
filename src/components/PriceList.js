@@ -28,25 +28,63 @@ export default class PriceList extends Component {
           <div className='row title'>
             <h3>Undersøkelse</h3>
           </div>
+           <div className='row'>
+            <h3>Undersøkelse hos spesialist etter refusjon</h3>
+            <h3>450-650 kr</h3>
+          </div>
           <div className='row'>
-            <h3>Undersøkelse</h3>
+            <h3>Undersøkelse med to røntgen bilder</h3>
             <h3>950 kr</h3>
           </div>
+            <div className='row'>
+            <h3>Undersøkelse hos tannpleier</h3>
+            <h3>850 kr</h3>
+          </div>
+             
+             
           <div className='row title'>
-            <h3>Fyllinger</h3>
+            <h3>Røntgen</h3>
           </div>
           <div className='row'>
-            <h3>Liten fylling</h3>
-            <h3>600 kr</h3>
+            <h3>Ordinær røntgen bilde</h3>
+            <h3>95 kr</h3>
           </div>
           <div className='row'>
-            <h3>Middels stor fylling</h3>
-            <h3>1500 kr</h3>
+            <h3>OPG</h3>
+            <h3>700 kr</h3>
           </div>
-          <div className='row'>
-            <h3>Stor fylling</h3>
+   <div className='row'>
+            <h3>CBCT uten refusjon</h3>
             <h3>2500 kr</h3>
           </div>
+           <div className='row'>
+            <h3>CBCT med refusjon</h3>
+            <h3>1300 kr</h3>
+          </div>
+
+
+          <div className='row title'>
+            <h3>Rotfylling</h3>
+          </div>
+          <div className='row'>
+            <h3>En seanse</h3>
+            <h3>6000 kr</h3>
+          </div>
+          <div className='row'>
+            <h3>To seanse</h3>
+            <h3>6500-7000 kr</h3>
+          </div>
+
+                 <div className='row title'>
+            <h3>Kirurgi</h3>
+          </div>
+           <div className='row'>
+            <h3>Apikal kirurgi etter refusjon</h3>
+            <h3>4000-5000 kr</h3>
+          </div>
+         
+    
+
           <div className='row title'>
             <h3>Trekking av tenner</h3>
           </div>
@@ -73,6 +111,18 @@ export default class PriceList extends Component {
             <h3>Helkeramisk krone på et implantat i overkjeven</h3>
             <h3>30 000 kr</h3>
           </div>
+                   <div className='row title'>
+            <h3>Periodontal behandling</h3>
+          </div>
+           <div className='row'>
+            <h3>Tannkjøttbehandling u. kirurgi</h3>
+            <h3>1500 kr</h3>
+          </div>
+             <div className='row'>
+            <h3>Rensing av tannsten</h3>
+            <h3>1500 kr</h3>
+          </div>
+         
         </div>
 			</div>
 		);
