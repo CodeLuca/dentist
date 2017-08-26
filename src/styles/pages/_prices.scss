@@ -1,4 +1,5 @@
 .page.prices {
+  color: #222 !important;
   .header {
     height: 300px;
     width: 100%;
@@ -44,13 +45,14 @@
         width: 50%;
         text-align: center;
         padding: 10px;
-        font-weight: 300;
+        font-weight: 400;
         margin: 0;
       }
     }
 
     .row.title {
       position: relative;
+      color: #111;
       background: #999 !important;
       box-shadow: 0px 0px 5px #444;
       z-index: 22;

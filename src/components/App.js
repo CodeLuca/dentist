@@ -38,7 +38,6 @@ export default class App extends Component {
 		return (
 			<MuiThemeProvider muiTheme={getMuiTheme(lightBaseTheme)}>
 				<div className="wrapper">
-					{/*<DevTools />*/}
 					<TopBar />
 					<Switch>
 						<Route
@@ -102,6 +101,14 @@ export default class App extends Component {
 							path="/contact"
 							render={props => (
 								<LazyRoute {...props} component={import("./Contact")} />
+							)}
+						/>
+
+						<Route
+							exact
+							path="/book"
+							render={props => (
+								<LazyRoute {...props} component={import("./Book")} />
 							)}
 						/>
 

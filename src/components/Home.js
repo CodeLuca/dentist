@@ -21,51 +21,59 @@ export default class Home extends Component {
 				<div className='homeContent'>
 					<div className='images'>
 						<a href='/contact'>
-							<div className='image' style={{'background-image': "url('http://i.imgur.com/I0DdvAc.jpg')"}}>
-								Timebestilling
+							<div className='imageContainer'>
+								<div className='image' style={{'background-image': "url('http://i.imgur.com/kOhV2Aw.jpg')"}}>
+								</div>
+								<div className='text'>
+									Timebestilling
+								</div>
 							</div>
 						</a>
 						<a href='/contact'>
-							<div className='image' style={{'background-image': "url('http://i.imgur.com/jmhQ1BV.jpg')"}}>
-								Kontakt oss
+							<div className='imageContainer'>
+								<div className='image' style={{'background-image': "url('http://i.imgur.com/jmhQ1BV.jpg')", 'background-position': 'center 65%'}}>
+								</div>
+								<div className='text'>
+									Kontakt oss
+								</div>
 							</div>
 						</a>
 						<a href='/prices'>
-							<div className='image' style={{'background-image': "url('http://i.imgur.com/lvY6TuAm.jpg')"}}>
-								Prisliste
+							<div className='imageContainer'>
+								<div className='image' style={{'background-image': "url('http://i.imgur.com/lvY6TuA.jpg')", 'background-position': 'center 40%'}}>
+								</div>
+								<div className='text'>
+									Prisliste
+								</div>
 							</div>
 						</a>
 						<a href='/team'>
-							<div className='image' style={{'background-image': "url('http://i.imgur.com/6XltU10.jpg')"}}>
-							 Medarbeidere
+							<div className='imageContainer'>
+								<div className='image' style={{'background-image': "url('http://i.imgur.com/6XltU10.jpg')", 'background-position': 'center 20%'}}>
+								</div>
+								<div className='text'>
+								Medarbeidere
+								</div>
 							</div>
 						</a>
 						<a href='/prices'>
-							<div className='image' style={{'background-image': "url('http://i.imgur.com/dQLCc4am.jpg')"}}>
-								Vitenskaplige artikler
+							<div className='imageContainer'>
+								<div className='image' style={{'background-image': "url('http://i.imgur.com/dQLCc4a.jpg')", 'background-position': 'center 53%'}}>
+								</div>
+								<div className='text'>
+									Vitenskaplige artikler
+								</div>
 							</div>
 						</a>
 						<a href='/gallery'>
-							<div className='image' style={{'background-image': "url('http://i.imgur.com/kOhV2Awm.jpg')"}}>
-								Bilder
+							<div className='imageContainer'>
+								<div className='image' style={{'background-image': "url('http://i.imgur.com/8pBYVmr.jpg')", 'background-position': 'center 60%'}}>
+								</div>
+								<div className='text'>
+									Bilder
+								</div>
 							</div>
 						</a>
-				
-
-					
-					</div>
-					<div className='contentRow'>
-						
-				
-					</div>
-					<div className='contentRow'>
-				
-					</div>
-					<div className='contentRow'>
-						<div className='icon'>
-					
-						</div>
-						
 					</div>
 				</div>
 			</div>

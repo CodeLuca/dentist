@@ -2,8 +2,16 @@
   padding: 20px;
   background: #444;
   color: #ddd;
+  text-align: center;
 
   h4 {
     margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    color: #aaa;
   }
 }

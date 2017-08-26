@@ -32,12 +32,19 @@ export default class TopNav extends Component {
 		this.setState(tempState);
 	}
 
+	goHome() {
+		window.location = '/';
+	}
+
 	render() {
 		return (
 			<div>
 				<AppBar
 					title="Tannlege Homan Zandi AS"
-					iconElementRight={<h4>Tel: (+47) 22 44 18 11</h4>}
+					onTitleTouchTap={
+						this.goHome.bind(this)
+					}
+					iconElementRight={<a href="tel:+47-22-44-18-11"><h4>Tel: (+47) 22 44 18 11</h4></a>}
 					onLeftIconButtonTouchTap={
 						this.toggleDrawerOpen.bind(this)
 					}
@@ -100,31 +107,6 @@ export default class TopNav extends Component {
 							</a>,
 						]}
 					/>
-	<a href='/team'>
-						<ListItem
-							primaryText="Apikal kirurgi"
-						/>
-					</a>
-					
-						<a href='/team'>
-						<ListItem
-							primaryText="Implantater"
-						/>
-					</a>
-
-
-						<a href='/team'>
-						<ListItem
-							primaryText="OPG/CBCT"
-						/>
-					</a>
-		<a href='/team'>
-						<ListItem
-							primaryText="Diagnostikk og Smerteutrydning"
-						/>
-					</a>
-
-
 					<a href='/team'>
 						<ListItem
 							primaryText="Våre Medarbeidere"
@@ -137,6 +119,12 @@ export default class TopNav extends Component {
 						/>
 					</a>
 
+					<a href='/articles'>
+						<ListItem
+							primaryText="Vitenskaplige Artikler"
+						/>
+					</a>
+
 					<a href='/gallery'>
 						<ListItem
 							primaryText="Bilder"
@@ -146,6 +134,12 @@ export default class TopNav extends Component {
 					<a href='/contact'>
 						<ListItem
 							primaryText="Contact Us"
+						/>
+					</a>
+
+					<a href='/book'>
+						<ListItem
+							primaryText="Timebestilling"
 						/>
 					</a>
 				</Drawer>
